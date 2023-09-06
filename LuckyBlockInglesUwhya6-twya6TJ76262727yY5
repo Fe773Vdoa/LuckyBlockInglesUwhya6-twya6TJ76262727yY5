@@ -68,14 +68,6 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "🎁 • Void Block, Don't Spam!",
-	Callback = function()
-      		game:GetService("ReplicatedStorage"):WaitForChild("SpawnVoidBlock"):FireServer()
-
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "↩️┃Others",
 	Icon = "rbxassetid://4483345998",
